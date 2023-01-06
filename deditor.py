@@ -54,4 +54,7 @@ for i in range(len(x)):
     else:
         k.write(f"\n{x[i][0]}")
 
+    if x[i][0] == x[::-1][0]:
+
+
 
