@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pynput = "*"
+pyinstaller = "*"
 
 [dev-packages]
 
